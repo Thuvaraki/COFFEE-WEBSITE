@@ -54,3 +54,46 @@ html ::-webkit-scrollbar-thumb{
     color: white;
     border: 1px solid white;
 }
+
+/* home section */
+#home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/bc3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+#home .content h3 {
+    font-size: 50px;
+    color: white;
+}
+
+#home .content p {
+    margin-top: 10px;
+    color: white;
+}
+
+#btn{
+    width:150px;
+    height:36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background: #b2744c;
+}
+
+
