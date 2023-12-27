@@ -1,0 +1,56 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.container{
+    background: #f7f5f2;
+}
+
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+
+html ::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb{
+    background: #b2744c;
+    border-radius: 10px;
+}
+
+#navbar{
+    background-color: #b2744c;
+}
+
+#logo img{
+    width: 160px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.nav-bar .nav{
+    margin-left: 50px;
+}
+
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+
+#navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
