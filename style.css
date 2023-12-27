@@ -94,6 +94,98 @@ html ::-webkit-scrollbar-thumb{
 
 #btn:hover{
     background: #b2744c;
+    color: white;
 }
 
+/* about section */
+#about {
+width: 100%;
+/* height: 120vh; */
+}
 
+#about.container{
+padding-top: 70px;
+}
+
+.heading{
+text-align: center;
+margin-top: 20px;
+margin-bottom: 50px;
+color: black;
+font-size: 30px;
+font-weight: bold;
+}
+
+.heading span{
+color: #b2744c;
+}
+
+#about.card img{
+border-radius: 10px;
+}
+
+#about-btn{
+    width:200px;
+    height:36px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color: #b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about-btn:hover{
+    color: white;
+    background-color:#b2744c ;
+}
+
+@media screen and(max-width:982px){
+    #about p{
+        font-size: 8px;
+    }
+}
+
+@media screen and(max-width:768px){
+        #about p{
+            font-size: 15px;
+        }
+        #about{
+            height: 120vh;
+        }
+}
+
+/* Top cards */
+#top-cards{
+   width:100%;
+   background: #f7f5f2;
+   transition: 0.5s;
+   cursor: pointer; 
+   margin-top: 10px;
+}
+
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading2 span{
+    color: #b2744c;
+}
+
+#top-cards .con{
+    margin-top: 25px;
+}
+
+#top-cards .card{
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#top-cards .card img{
+    border-radius: 10px;
+}
