@@ -17,12 +17,19 @@
 <body>
    <div class="container">
 
+    <!-- 'navbar-expand-lg' class means that the navbar should be expanded for large screens -->
     <nav class="navbar navbar-expand-lg" id="navbar">
+      <!-- The 'container-fluid' class ensures that the container spans the full width of its parent element,
+         making it responsive to different screen sizes. The content inside the container adjusts its layout based on the screen 
+         width, providing a seamless user experience across various devices.
+         Fluid Width: The term "fluid" indicates that the container's width is not fixed but rather fluid, meaning it can expand 
+         or contract based on the available screen space. -->
         <div class="container-fluid">
           <a class="navbar-brand" href="#" id="logo"><img src="./images/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span><i class="fa-solid fa-bars" style="color:white; font-size:23px;"></i></span>
           </button>
+          <!-- This is the button that toggles the navbar for small screens. It uses Bootstrap's collapse feature. -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -47,8 +54,12 @@
                 <a class="nav-link" href="#blog">Blogs</a>
               </li>
             </ul>
+            <!-- <form class="d-flex">: This is a Bootstrap form that contains a search input and a search button. 
+              The d-flex class is used for flexbox styling. -->
             <form class="d-flex">
+              <!-- search input field with Bootstrap styling. -->
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <!-- search button with with Bootstrap styling. -->
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
@@ -113,10 +124,180 @@
                      <img src="./images/c3.png" alt="">
                     </div>
                  </div>
-
-</div>
+            
+            </div>
          </div>
       </section>
+
+      <!-- Menu section -->
+      <section id="menu">
+        <div class="con">
+          <div class="heading3">Menu</div>
+        </div>
+
+        <div class="con" id="con2">
+          <div class="row">
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                   <img src="./images/m1.png" alt="">
+
+                   <div class="card-body">
+                    <!-- 'text-center' is a Bootstrap class that horizontally centers the content within the div -->
+                     <div class="star text-center">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+
+                      <h3>Coffee</h3>
+                      <p>$115 <strike>$120 </strike><span class="fa-solid fa-cart-shopping"></span></p>
+                     </div>
+                   </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                   <img src="./images/m2.png" alt="">
+
+                   <div class="card-body">
+                     <div class="star text-center">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+
+                      <h3>Coffee</h3>
+                      <p>$98 <strike>$100 </strike><span class="fa-solid fa-cart-shopping"></span></p>
+                     </div>
+                   </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                   <img src="./images/m3.png" alt="">
+
+                   <div class="card-body">
+                     <div class="star text-center">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+
+                      <h3>Coffee</h3>
+                      <p>$99 <strike>$102 </strike><span class="fa-solid fa-cart-shopping"></span></p>
+                     </div>
+                   </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                   <img src="./images/m4.png" alt="">
+
+                   <div class="card-body">
+                     <div class="star text-center">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+
+                      <h3>Coffee</h3>
+                      <p>$99 <span class="fa-solid fa-cart-shopping"></span></p>
+                     </div>
+                   </div>
+              </div>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                     <img src="./images/m5.png" alt="">
+  
+                     <div class="card-body">
+                       <div class="star text-center">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+  
+                        <h3>Coffee</h3>
+                        <p>$104 <span class="fa-solid fa-cart-shopping"></span></p>
+                       </div>
+                     </div>
+                </div>
+              </div>
+  
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                     <img src="./images/m6.png" alt="">
+  
+                     <div class="card-body">
+                       <div class="star text-center">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+  
+                        <h3>Coffee</h3>
+                        <p>$100 <span class="fa-solid fa-cart-shopping"></span></p>
+                       </div>
+                     </div>
+                </div>
+              </div>
+  
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                     <img src="./images/m7.png" alt="">
+  
+                     <div class="card-body">
+                       <div class="star text-center">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+  
+                        <h3>Coffee</h3>
+                        <p>$90 <span class="fa-solid fa-cart-shopping"></span></p>
+                       </div>
+                     </div>
+                </div>
+              </div>
+  
+              <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                     <img src="./images/m8.png" alt="">
+  
+                     <div class="card-body">
+                       <div class="star text-center">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+  
+                        <h3>Coffee</h3>
+                        <p>$85 <span class="fa-solid fa-cart-shopping"></span></p>
+                       </div>
+                     </div>
+                </div>
+              </div>
+
+        </div>
+      </section>
+
+
+
 
     </div>
     
